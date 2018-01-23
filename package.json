@@ -1,36 +1,30 @@
 {
-  "name": "mean-template",
-  "version": "1.0.0",
-  "description": "MEAN Fullstack Dev",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AsenCME/MEAN-Stack-Application.git"
-  },
-  "keywords": [
-    "mean",
-    "stack",
-    "application",
-    "app",
-    "fullstack",
-    "dev"
-  ],
-  "author": "Asen Georgiev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AsenCME/MEAN-Stack-Application/issues"
-  },
-  "homepage": "https://github.com/AsenCME/MEAN-Stack-Application#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "cookie-parser": "^1.4.3",
-    "cors": "^2.8.4",
-    "dotenv": "^4.0.0",
-    "express": "^4.16.2",
-    "mongoose": "^5.0.1",
-    "serve-favicon": "^2.4.5"
-  }
+	"name": "mean-template",
+	"version": "1.0.0",
+	"description": "MEAN Fullstack Dev",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev:server": "cd client && ng build && cd .. && nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AsenCME/MEAN-Stack-Application.git"
+	},
+	"keywords": ["mean", "stack", "application", "app", "fullstack", "dev"],
+	"author": "Asen Georgiev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AsenCME/MEAN-Stack-Application/issues"
+	},
+	"homepage": "https://github.com/AsenCME/MEAN-Stack-Application#readme",
+	"dependencies": {
+		"body-parser": "^1.18.2",
+		"cookie-parser": "^1.4.3",
+		"cors": "^2.8.4",
+		"dotenv": "^4.0.0",
+		"express": "^4.16.2",
+		"mongoose": "^5.0.1",
+		"serve-favicon": "^2.4.5"
+	}
 }
