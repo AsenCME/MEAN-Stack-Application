@@ -10,7 +10,8 @@ const config = require("./config/database");
 
 const app = express();
 
-// MongoDB Connection
+// MongoDB Connection with mongoose
+// Could be swapped out with Sequelize for MySQL
 mongoose.Promise = global.Promise;
 mongoose.connect(config.uri, err => {
 	if (err) console.log("Could not connect: ", err);
