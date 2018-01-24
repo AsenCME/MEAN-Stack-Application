@@ -11,7 +11,14 @@
 		"type": "git",
 		"url": "git+https://github.com/AsenCME/MEAN-Stack-Application.git"
 	},
-	"keywords": ["mean", "stack", "application", "app", "fullstack", "dev"],
+	"keywords": [
+		"mean",
+		"stack",
+		"application",
+		"app",
+		"fullstack",
+		"dev"
+	],
 	"author": "Asen Georgiev",
 	"license": "ISC",
 	"bugs": {
@@ -19,6 +26,7 @@
 	},
 	"homepage": "https://github.com/AsenCME/MEAN-Stack-Application#readme",
 	"dependencies": {
+		"bcrypt-nodejs": "0.0.3",
 		"body-parser": "^1.18.2",
 		"cookie-parser": "^1.4.3",
 		"cors": "^2.8.4",

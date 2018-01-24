@@ -5,7 +5,7 @@ const crypto = require("crypto")
 
 module.exports = {
 	db: process.env.DB_NAME,
-	uri: process.env.MONGODB_URI + this.db,
+	uri: process.env.MONGODB_URI,
 	secret: crypto,
 	port: process.env.PORT,
 };
